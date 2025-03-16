@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --gray-color: rgb(38, 40, 41);  /* رمادي غامق */
+    --teal-color: rgb(4, 134, 121);   /* فيروزي غامق */
+    --white-color: rgb(255, 255, 255); /* أبيض */
+} 
+
+.contenar {
+    color: var(--white-color);
+    
+    /* background-color: var(--teal-color); */
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    align-items: center;
+    gap: 5px;
+    
+}
+
+ .contat
+ {
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+    padding: 20px;
+   
+}
+
+
+button:hover{
+    background-color: var(--teal-color);
+    border: none;
+  
+}
+
+
+/* لاخفاء القواءم  */
+.none{
+    display: none;
+}

@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+}
+body{
+    background-color: var(--gray-color);
+    height: 100hr;
+}
+/* اسسات الوان الموقع */
+:root {
+    --gray-color: rgb(38, 40, 41);  /* رمادي غامق */
+    --teal-color: rgb(4, 134, 121);   /* فيروزي غامق */
+    --white-color: rgb(255, 255, 255); /* أبيض */
+} 
+
+/* header بدايت العمل على  */
+header{
+    width: 80%;
+   margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    align-items: center;
+    
+}
+header h1 samp{
+    color: var(--teal-color);
+   
+    
+}
+header h1{
+    font-size: 42px;
+    color: var(--white-color);
+}
+
+header  ul li {
+    display: inline-block;
+    margin: 2px 6px;
+}
+
+header  ul li  a{
+   text-decoration: none; 
+   font-size: 25px;
+   font-weight: 500;
+   color: var(--white-color);
+}
+
+header  ul li  a:hover{
+    color: var(--teal-color);
+    text-decoration: underline;
+}
+/* نهايت العمل على شرط التنقل */
+
+/* دعديل على مقصات الشاشات لشريط المهام */
+
+
+@media (max-width: 1000px) {
+   header{
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+   header h1{
+    font-size: 36px;
+    text-align: center;   
+}
+
+header  ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+   header  ul li {
+    display: inline-block;
+    margin: 2 3px;
+}
+
+header  ul li  a{
+   text-decoration: none; 
+   font-size: 20px;
+   font-weight: 400;
+}
+}
+.card h2, p, a i{
+    color:var(--gray-color);
+}
+/* ستايلات الكروت */
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: var(--teal-color);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin: 30px ;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card {
+    background-color: var(--white-color);
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1  / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.5s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+ .icon{
+   color: var(--teal-color);
+    font-size: 6em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+.info h3 {
+    color: var(--teal-color);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+    
+}
+
+.info a{
+    color: var(--gray-color);
+    text-decoration: none;
+}
+
+.info a:hover{
+    color: var(--teal-color);
+    text-decoration: underline;
+}
+
+
+
+

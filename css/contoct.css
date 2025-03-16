@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+:root {
+  --gray-color: rgb(38, 40, 41);  /* رمادي غامق */
+  --teal-color: rgb(4, 134, 121);   /* فيروزي غامق */
+  --white-color: rgb(255, 255, 255); /* أبيض */
+} 
+
+.contenar{
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+
+.tel{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+  gap: 20px;
+}
+
+
+.cart, .cart p{
+   color: aliceblue;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   font-size: 30px;
+}
+
+.cart:hover p, i{
+  color:var(--teal-color) ;
+}
+
+@media ( max-width: 1000px) {
+  .cart, .cart p{
+    font-size: 16px;
+  }
+
+  .tel{
+    
+    width: 100%;
+    margin: auto;
+    gap: 20px;
+  }
+  
+}
+
+
+  .communication {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 35px;
+    margin-top: 30px;
+}
+
+.communication a i{
+    font-size: 24px;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.communication a:hover {
+    color: #d32f2f; /* لون عند التحويم */
+}
+
+@media   ( max-width: 1060px){
+  .communication{
+    top: 30%;
+  }
+}
+
+
