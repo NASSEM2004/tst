@@ -43,3 +43,23 @@
     
 
 }
+
+.mee{
+  color:rgb(4, 134, 121);   text-decoration: underline;
+}
+
+.search-box input ,.search-box i:hover{
+  cursor: pointer;
+}
+.search-box:hover{
+  cursor: pointer;
+}
+
+.box{
+  color: var(--teal-color);
+}
+
+.box p{
+  color: var(--white-color);
+
+}

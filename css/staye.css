@@ -52,6 +52,10 @@ header  ul li  a:hover{
     color: var(--teal-color);
     text-decoration: underline;
 }
+
+.mee{
+    color:rgb(4, 134, 121);   text-decoration: underline;
+}
 /* نهايت العمل على شرط التنقل */
 
 /* دعديل على مقصات الشاشات لشريط المهام */
