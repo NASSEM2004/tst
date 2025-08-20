@@ -9,7 +9,11 @@
   --teal-color: rgb(4, 134, 121);   /* فيروزي غامق */
   --white-color: rgb(255, 255, 255); /* أبيض */
 } 
+.mee{
+  color:rgb(4, 134, 121);   text-decoration: underline;
+}
 
+/* ستاندر ابعاد الفقرات  */
 .contenar{
   width: 80%;
    margin: 20px auto;
@@ -20,6 +24,8 @@
     align-items: center;
   
 }
+/* نهاية الستاندر */
+/* بدايت قصم البحث */
 .search-box{
     width: 50%;
     display: flex;
@@ -44,33 +50,14 @@
 
 }
 
-.mee{
-  color:rgb(4, 134, 121);   text-decoration: underline;
-}
-
 .search-box input ,.search-box i:hover{
   cursor: pointer;
 }
 .search-box:hover{
   cursor: pointer;
 }
-
-.box h2{
-  color: var(--teal-color);
-}
-
-.box {
-  color: var(--white-color);
-  
-
-}
-
-
-
-.box h2{
-  color: var(--teal-color);
-}
-
+/* نهايت قصم البحث */
+/* بدايت قصم المكينات */
 .box {
     background-color: #f4f4f4;
     border: 1px solid #ddd;
@@ -79,13 +66,14 @@
     width: 30%;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     color: black;
 }
 
 .box img {
-    max-width: 100%;
+    width: 100%;
     border-radius: 5px;
+    
 }
 
 .box h2 {
@@ -97,10 +85,13 @@
     font-size: 1em;
     margin: 10px 0;
     color: #555;
+    text-align:left ;
+   
+
 }
 
 .box table {
-    width: 100%;
+    width: 95%;
     margin: 15px 0;
 }
 
@@ -126,3 +117,5 @@
 .box a:hover {
     background-color: rgb(4, 100, 90);
 }
+/* نهايت قصم المكينات */
+
